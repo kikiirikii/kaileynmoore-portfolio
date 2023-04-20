@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+            <a href="index.html" class="logo"><img src="media/images/lucky-iris-designs-logo.png"></a>
+            <a href="index.html" class="navlink navlink1">Home</a>
+            <a href="about-me.html" class="navlink navlink2">About</a>
+            <a href="projects.html" class="navlink navlink3">Projects</a>
+            <a href="contact.html" class="navlink active navlink4">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact-container background-properties">
+        <h1>Let's get in touch!</h1>
+            <form id="form" action="contactform.php" formenctype="text/plain" method="post" class="contact-form">
+                <div class="form-element user-name">
+                    <input type="text" name="name" placeholder="Name" class="input-box" required>
+                </div>
+
+                <div class="form-element user-email">
+                    <input type="text" name="mail" placeholder="Email" class="input-box" required>
+                </div>
+
+                <div class="form-element user-message">
+                    <textarea name="message" placeholder="Your message..." class="message-box" required></textarea>
+                </div>
+
+                <div class="submit-container">
+                    <button type="submit" name="submit" class="submit">Say Hello</button>
+                </div>
+            </form>
+    </section>
+</body>
+</html>
