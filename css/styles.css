@@ -235,6 +235,8 @@ ul li {
 .about-article {
     margin: 0rem 6rem;
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-text {
@@ -263,6 +265,32 @@ ul li {
 
 .about-img {
     border-radius: 50%;
+    width: 100%;
+}
+
+.lid-text {
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    color: #FFFFFA;
+}
+
+.lid-description {
+    width: 60%;
+    margin-left: 1rem;
+}
+
+.lid-img-container {
+    width: 40%;
+    margin-right: 1rem;
+    padding: 0rem;
+    display: flex;
+}
+
+.lid-img {
     width: 100%;
 }
 /*about me end*/
@@ -411,7 +439,6 @@ ul li {
 .input-box {
     border: none;
     border-bottom: 1.5px solid #DC683C;
-    border-radius: 0rem;
     padding: 1rem 0.5rem;
     background: transparent;
     width: 100%;
@@ -445,7 +472,6 @@ ul li {
     box-sizing: border-box;
     border: none;
     border-bottom:1.5px solid #DC683C;
-    border-radius: 0rem;
     padding: 1rem 0.5rem;
     background: transparent;
     width: 100%;
@@ -573,14 +599,7 @@ ul li {
 }
 
 .about-text {
-    border-top: 5px double #A43444;
-    padding: 1.5rem 1rem;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1.25rem;
-    color: #FFFFFA;
 }
 
 .about-description {
@@ -589,18 +608,23 @@ ul li {
 }
 
 .about-img-container {
-    width: 40%;
-    border-radius: 50%;
     margin: 0rem 0rem 1rem 0rem;
-    padding: 0rem;
-    display: flex;
+    width: 60%;
 }
 
-.about-img {
-    border-radius: 50%;
+.lid-text {
+    flex-direction: column;
+}
+
+.lid-description {
     width: 100%;
+    margin: 0rem;
 }
 
+.lid-img-container {
+    margin: 0rem 0rem 1rem 0rem;
+    width: 60%;
+}
 /*about end*/
 
 /*projects start*/
