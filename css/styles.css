@@ -431,7 +431,6 @@ ul li {
 
 .input-box:focus {
     border: 2px solid #DC683C;
-    border-radius: 0.5rem;
 }
 
 .input-box:active {
@@ -467,7 +466,6 @@ ul li {
 
 .message-box:focus {
     border: 2px solid #DC683C;
-    border-radius: 0.5rem;
 }
 
 .message-box:active {
