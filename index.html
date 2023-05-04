@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1", user-scaleable="yes">
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
@@ -25,24 +26,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
 
     <title>Home</title>
 </head>
 <body class="about-background">
     <header>
         <nav class="topnav">
-            <a href="index.html" class="logo"><img src="media/images/lucky-iris-designs-logo.png"></a>
-            <a href="index.html" class="navlink active navlink1">Home</a>
-            <a href="about-me.html" class="navlink navlink2">About</a>
-            <a href="projects.html" class="navlink navlink3">Projects</a>
-            <a href="contact.html" class="navlink navlink4">Contact</a>
+            <div class="logo-container"><a href="index.html"><img src="media/images/lucky-iris-designs-logo.png" class="logo"></a></div>
+
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <div class="navbar-menu">
+                <ul class="navbar-links">
+                    <li class="navitem navitem1"><a href="index.html" class="navlink active-link">Home</a></li>
+                    <li class="navitem navitem2"><a href="about-me.html" class="navlink">About</a></li>
+                    <li class="navitem navitem3"><a href="projects.html" class="navlink">Projects</a></li>
+                    <li class="navitem navitem4"><a href="contact.html" class="navlink">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <article class="home-article background-properties">
         <p class="home-title">Hello there! My name is <bdi>Kailey</bdi>.</p>
         <section class="home-text-container">
-            <p class="home-text">I'm a...</p>
+            <p class="home-text">I'm a</p>
             <div class="scroll-box"><ul class="t">
             <li>Writer.</li>
             <li>Problem-Solver.</li>

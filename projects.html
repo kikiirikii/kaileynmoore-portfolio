@@ -25,17 +25,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
 
     <title>Projects</title>
 </head>
 <body>
     <header>
         <nav class="topnav">
-            <a href="index.html" class="logo"><img src="media/images/lucky-iris-designs-logo.png"></a>
-            <a href="index.html" class="navlink navlink1">Home</a>
-            <a href="about-me.html" class="navlink navlink2">About</a>
-            <a href="projects.html" class="navlink active navlink3">Projects</a>
-            <a href="contact.html" class="navlink navlink4">Contact</a>
+            <div class="logo-container"><a href="index.html"><img src="media/images/lucky-iris-designs-logo.png" class="logo"></a></div>
+
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <div class="navbar-menu">
+                <ul class="navbar-links">
+                    <li class="navitem navitem1"><a href="index.html" class="navlink">Home</a></li>
+                    <li class="navitem navitem2"><a href="about-me.html" class="navlink">About</a></li>
+                    <li class="navitem navitem3"><a href="projects.html" class="navlink active-link">Projects</a></li>
+                    <li class="navitem navitem4"><a href="contact.html" class="navlink">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -79,7 +91,7 @@
 
                 <div class="card card4">
                     <div class="img-container"><img src="media/images/ph-img.jpg" class="cardimg"></div>
-                    <article class="card-text card-text-r">
+                    <article class="card-text">
                         <h2 class="card-title">Gulp Roast Website</h2>
                         <p class="description description4">
                         For my very first coding project, I created a basic and functional website for the fictional coffee company Gulp Roast.<br>
@@ -89,7 +101,7 @@
                 </div>
                 <div class="card card5">
                     <div class="img-container"><img src="media/images/ph-img.jpg" class="cardimg"></div>
-                    <article class="card-text">
+                    <article class="card-text card-text-r">
                         <h2 class="card-title">Portfolio Website</h2>
                         <p class="description description5">
                         Codefolio? Yes, please!<br>

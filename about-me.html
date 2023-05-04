@@ -25,30 +25,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
 
     <title>About</title>
 </head>
 <body>
     <header>
         <nav class="topnav">
-            <a href="index.html" class="logo"><img src="media/images/lucky-iris-designs-logo.png"></a>
-            <a href="index.html" class="navlink navlink1">Home</a>
-            <a href="about-me.html" class="navlink active navlink2">About</a>
-            <a href="projects.html" class="navlink navlink3">Projects</a>
-            <a href="contact.html" class="navlink navlink4">Contact</a>
+            <div class="logo-container"><a href="index.html"><img src="media/images/lucky-iris-designs-logo.png" class="logo"></a></div>
+
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
+            <div class="navbar-menu">
+                <ul class="navbar-links">
+                    <li class="navitem navitem1"><a href="index.html" class="navlink">Home</a></li>
+                    <li class="navitem navitem2"><a href="about-me.html" class="navlink active-link">About</a></li>
+                    <li class="navitem navitem3"><a href="projects.html" class="navlink">Projects</a></li>
+                    <li class="navitem navitem4"><a href="contact.html" class="navlink">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <section class="about-section">
         <article class="about-article background-properties">
-            <h1>My Story</h1>
+            <h1>Here's a little bit about me.</h1>
             <section class="about-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi porta lorem mollis aliquam. Neque convallis a cras semper auctor neque vitae tempus. Sit amet risus nullam eget felis eget. Posuere urna nec tincidunt praesent semper feugiat nibh sed. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Rutrum quisque non tellus orci ac auctor augue. Vel risus commodo viverra maecenas accumsan lacus vel facilisis. <br>
+                <div class="about-img-container"><img src="media/images/about-me-img.png" alt="An image of me!" class="about-img"></div>
 
-                Vitae et leo duis ut diam quam nulla. Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Ultricies integer quis auctor elit. Tempor orci eu lobortis elementum nibh. Quis viverra nibh cras pulvinar mattis. Eu turpis egestas pretium aenean pharetra magna ac placerat. Porta nibh venenatis cras sed felis eget velit aliquet sagittis.
+                <p class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi porta lorem mollis aliquam. Neque convallis a cras semper auctor neque vitae tempus. Sit amet risus nullam eget felis eget. Posuere urna nec tincidunt praesent semper feugiat nibh sed. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Rutrum quisque non tellus orci ac auctor augue. Vel risus commodo viverra maecenas accumsan lacus vel facilisis.<br>
+
+                Vitae et leo duis ut diam quam nulla. Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Ultricies integer quis auctor elit. Tempor orci eu lobortis elementum nibh. Quis viverra nibh cras pulvinar mattis. Eu turpis egestas pretium aenean pharetra magna ac placerat. Porta nibh venenatis cras sed felis eget velit aliquet sagittis.</p>
             </section>
         </article>
-        <img src="media/images/about-me-img.png" alt="An image of me!" class="about-img">
     </section>
 </body>
 </html>
