@@ -877,6 +877,14 @@ ul li {
     margin: 0rem 2rem;
     padding: 1rem;
 }
+
+.about-img-container {
+    width: 70%;
+}
+
+.lid-img-container {
+    width: 70%;
+}
 /*about end*/
 
 /*projects start*/
