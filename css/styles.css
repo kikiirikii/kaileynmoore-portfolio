@@ -16,6 +16,7 @@ body {
     background-position: bottom, center;
     background-repeat: no-repeat;
     font-family: Lato, Arial, Helvetica, sans-serif;
+    color: #FFFFFA;
 }
 
 /*universal rules*/
@@ -34,13 +35,35 @@ body {
 }
 
 h1 {
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem;
     font-family: Josefin Sans, Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
     font-weight: 300;
     letter-spacing: 0.25rem;
     line-height: 1.5;
     color: #FFFFFA;
+}
+
+h2 {
+    margin: 0.5rem 0rem;
+    letter-spacing: 0.15rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 0rem 0rem 0.25rem 0rem;
+}
+
+.orange {
+    color: #DC683C;
+    font-weight: 700;
+}
+
+u {
+    text-decoration-color: #DC683C;
 }
 /*universal rules*/
 
@@ -128,7 +151,7 @@ header {
 
 /*home page start*/
 .home-article {
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 3rem 2rem;
     display: flex;
     flex-direction: row;
@@ -144,7 +167,7 @@ header {
 }
 
 .home-img {
-    margin: 0rem 0rem 0rem 2rem;
+    margin-left: 2rem;
     padding: 0rem;
     width: 40%;
 }
@@ -156,17 +179,16 @@ header {
 .home-title {
     margin: 0rem;
     border-bottom: 5px double #A43444;
-    padding: 2rem;
+    padding: 1.5rem;
     font-size: 3.25rem;
     font-family: Josefin Sans, Arial, Helvetica, sans-serif;
     font-weight: 400;
-    color: #FFFFFA;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.25rem;
     line-height: 1.5;
 }
 
 .home-text-container {
-    padding: 2rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,12 +199,7 @@ header {
 .home-text {
     margin: 0rem 0rem 1rem 0rem;
     font-size: 3rem;
-    color: #FFFFFA;
     letter-spacing: 0.2rem;
-}
-
-bdi {
-    color: #DC683C;
 }
 
 .scrollbox {
@@ -206,11 +223,6 @@ bdi {
     font-size: 3rem;
     color: #FFFFFA;
 	}
-
-.orange {
-    color: #DC683C;
-    font-weight: 700;
-}
 	
 	.t {
 	  animation-name: titleflip;
@@ -263,8 +275,6 @@ bdi {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    font-size: 1.25rem;
-    color: #FFFFFA;
 }
 
 .text-container {
@@ -274,22 +284,20 @@ bdi {
     flex-direction: column;
 }
 
-.about-p {
-    line-height: 1.5;
-    margin: 0rem 0rem 0.25rem 0rem;
-}
-
-u {
-    text-decoration-color: #DC683C;
-}
-
 ul {
     margin: 0rem 1rem 0.3rem 1rem;
     list-style-type: disc;
 }
 
 ul li {
+    font-family: Lato;
+    font-size: 1.25rem;
     line-height: 1.5;
+}
+
+.resume-link {
+    text-decoration-style: dotted;
+    color: #A43444;
 }
 
 .about-img-container {
@@ -306,18 +314,11 @@ ul li {
 }
 
 .lid-section {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 1rem 3rem 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    font-size: 1.25rem;
-    color: #FFFFFA;
-}
-
-.lid-p {
-    line-height: 1.5;
-    margin: 0rem 0rem 0.25rem 0rem;
 }
 
 .lid-img-container {
@@ -344,7 +345,7 @@ ul li {
 }
 
 .card {
-    margin: 0rem 1rem 1rem 1rem;
+    margin: 0rem 1rem 2rem 1rem;
 }
 
 .img-container {
@@ -365,18 +366,6 @@ ul li {
 .card-text-r {
     justify-content: end;
     text-align: end;
-}
-
-.card-title {
-    color: #FFFFFA;
-    letter-spacing: 0.15rem;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-.description {
-    color: #FFFFFA;
-    font-size: 1.25rem;
 }
 
 .card-layout1 {
@@ -457,6 +446,10 @@ ul li {
 .contact-container {
     border-top: 5px double #A43444;
     width: 100%;
+}
+
+.notice {
+    margin: 1rem;
 }
 
 .contact-form {
@@ -597,8 +590,6 @@ ul li {
     
     .navitem {
         margin: 0rem;
-        height: fit-content;
-        width: fit-content;
     }
     
     .navitem1 {
@@ -622,8 +613,6 @@ ul li {
 
 /*home start*/
     .home-article {
-        margin: 1rem auto;
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
@@ -772,11 +761,9 @@ ul li {
 
 @media (max-width: 650px) {
     h1 {
-        margin: 1rem;
         font-size: 2rem;
         letter-spacing: 0.2rem;
     }
-
 /*nav start*/
     header {
         padding: 1.5rem;
@@ -850,7 +837,6 @@ ul li {
 
 /*home start*/
     .home-article {
-        margin: 1rem auto;
         padding: 2rem 1rem;
     }
     
@@ -861,11 +847,10 @@ ul li {
     }
     
     .home-text-container {
-        padding: 1rem 0.5rem;
+        padding: 1rem;
     }
     
     .home-text {
-        margin: 0rem 0rem 0.5rem 0rem;
         font-size: 2rem;
         letter-spacing: 0.1rem;
     }
@@ -943,20 +928,6 @@ ul li {
         justify-content: center;
     }
 
-    .card-text {
-        padding: 0rem 1rem;
-    }
-
-    .card-title {
-        letter-spacing: 0.1rem;
-        font-size: 1.25rem;
-    }
-    
-    .description {
-        color: #FFFFFA;
-        font-size: 1rem;
-    }
-    
     .card-layout1 {
         padding: 1.5rem 0rem 0rem 0rem;
         display: flex;
