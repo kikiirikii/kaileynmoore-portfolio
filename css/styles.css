@@ -9,7 +9,7 @@ html {
 body {
     margin: 0rem;
     padding: 0rem;
-    background-image: url("../media/images/blue-trees.svg"), url("../media/images/sunset-background.jpg");
+    background-image: url("../media/images/sunset-background.jpg");
     background-color: #E7B5C1;
     background-size: cover;
     background-attachment: fixed, fixed;
